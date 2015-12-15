@@ -157,7 +157,7 @@ module RuboCop
       offenses = offenses.reject { |o| DirtyCop.bury_evidence?(file.path, o.line) }
       [offenses, updated]
     end
-end
+  end
 end
 
 
