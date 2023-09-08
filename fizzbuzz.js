@@ -1,12 +1,17 @@
-function fizzBuzz (target) {
-  var i;
+/** @format */
+
+function fizzBuzz(target) {
+  let i;
   for (i = 1; i <= target; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
-      alert('FizzBuzz');
+      // 3と5の倍数のとき
+      alert("FizzBuzz");
     } else if (i % 3 == 0) {
-      alert('Fizz');
+      // 3の倍数のとき
+      alert("Fizz");
     } else if (i % 5 == 0) {
-      alert('Buzz');
+      // 5の倍数のとき
+      alert("Buzz");
     } else {
       alert(i);
     }
