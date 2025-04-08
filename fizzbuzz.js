@@ -8,6 +8,7 @@ function fizzBuzz (target) {
     } else if (i % 5 == 0) {
       alert('Buzz');
     } else if (i % 7 == 0) {
+      // Uho は意味ない言葉です
       alert('Uho');
     } else {
       alert(i);
