@@ -8,6 +8,7 @@ function fizzBuzz (target) {
     } else if (i % 5 == 0) {
       alert('Buzz');
     } else if (i % 14 == 0) {
+      // uge は迫力がある言葉です!
       alert('Uge!');
     } else {
       alert(i);
