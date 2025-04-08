@@ -7,6 +7,8 @@ function fizzBuzz (target) {
       alert('Fizz');
     } else if (i % 5 == 0) {
       alert('Buzz');
+    } else if (i % 7 == 0) {
+      alert('Uho');
     } else {
       alert(i);
     }
